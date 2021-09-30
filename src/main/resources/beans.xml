@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--        @Controller,@Service,@Repository,@Component-->
+<!--    <context:component-scan base-package="com.xue" use-default-filters="false"/>-->
+<!--    //use-default-filters="false"禁用默认过滤规则，因为默认的规则就是扫描所有的-->
+
+    <context:annotation-config/>
+
+    <bean id="person" class="com.xue.bean.Person">
+        <property name="age" value="18"/>
+        <property name="name" value="zhangsang"/>
+    </bean>
+
+</beans>
+
