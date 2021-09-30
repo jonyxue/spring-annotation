@@ -31,6 +31,7 @@ public class Mytest {
         for (String name : beanDefinitionNames) {
             System.out.println(name);//输出容器有哪些组件。
             System.out.println("gittt");
+            System.out.println("gittt-hotfix");
 
         }
 
