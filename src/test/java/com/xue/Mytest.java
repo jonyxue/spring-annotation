@@ -33,6 +33,7 @@ public class Mytest {
             System.out.println("gittt");
             System.out.println("gittt-hotfix");
             System.out.println("master test");
+            System.out.println("hot-fix");
 
         }
 
