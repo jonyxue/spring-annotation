@@ -19,7 +19,7 @@ public class Mytest {
         String[] beanNamesForType = applicationContext.getBeanNamesForType(Person.class);
         for (String s : beanNamesForType) {
             System.out.println(s);
-            
+
         }
     }
 
@@ -34,6 +34,8 @@ public class Mytest {
             System.out.println("gittt-hotfix");
             System.out.println("master test");
             System.out.println("hot-fix");
+            System.out.println("push-test");
+
 
         }
 
