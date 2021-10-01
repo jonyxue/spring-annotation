@@ -37,6 +37,7 @@ public class Mytest {
             System.out.println("push-test");
             System.out.println("push2-test");
             System.out.println("ssh");
+             System.out.println("sshsha");
 
 
         }
